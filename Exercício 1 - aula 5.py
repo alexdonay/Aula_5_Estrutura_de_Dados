@@ -11,9 +11,9 @@ for i in range(0, 3):
     for j in range(0, 3):
         primeira[i][j] = int(input(f"Digite um valor para a matriz: \n"))
         if(i==j):
-            primeira[i][j] = segunda[i][j] * k
+            segunda[i][j] = primeira[i][j] * k
         else:
-            primeira[i][j] = segunda[i][j]
+            segunda[i][j] = primeira[i][j]
 
 print()
 imprimir(primeira)
